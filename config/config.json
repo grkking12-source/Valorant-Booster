@@ -1,0 +1,17 @@
+{
+    "stop_processes": [
+        "ollama.exe",
+        "ollama app.exe"
+    ],
+    "stop_if_cmdline_contains": [],
+    "stop_services": [],
+    "keep_running": [
+        "discord.exe",
+        "chrome.exe",
+        "nzxt cam.exe"
+    ],
+    "force_ok": [
+        "ollama.exe",
+        "ollama app.exe"
+    ]
+}

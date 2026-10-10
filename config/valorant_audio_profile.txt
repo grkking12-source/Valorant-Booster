@@ -1,0 +1,19 @@
+# VALORANT BOOST - Audio Profile
+# Moderate competitive clarity profile
+
+Preamp: -2 dB
+
+# Reduce low-end boom/rumble
+Filter: ON LS Fc 90 Hz Gain -3 dB Q 0.70
+
+# Reduce low-mid masking
+Filter: ON PK Fc 220 Hz Gain -1 dB Q 1.00
+
+# Improve detail
+Filter: ON PK Fc 1800 Hz Gain 1.5 dB Q 0.90
+
+# Footstep/detail region
+Filter: ON PK Fc 3500 Hz Gain 2 dB Q 0.90
+
+# Small treble lift
+Filter: ON HS Fc 6500 Hz Gain 1.5 dB Q 0.70

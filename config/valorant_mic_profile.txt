@@ -1,0 +1,19 @@
+# VALORANT BOOST - Microphone Profile
+# Moderate voice clarity profile
+
+Preamp: -2 dB
+
+# Remove very low rumble
+Filter: ON HP Fc 80 Hz
+
+# Reduce muddy/boomy voice
+Filter: ON PK Fc 250 Hz Gain -1.5 dB Q 1.00
+
+# Improve voice presence
+Filter: ON PK Fc 1500 Hz Gain 1.5 dB Q 0.90
+
+# Improve speech clarity
+Filter: ON PK Fc 3000 Hz Gain 2 dB Q 0.90
+
+# Small high-frequency clarity boost
+Filter: ON HS Fc 7000 Hz Gain 1 dB Q 0.70
